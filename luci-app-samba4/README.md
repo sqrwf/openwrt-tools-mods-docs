@@ -14,10 +14,10 @@ For quite some time, the "shared directories" table with `luci-app-samba4` has b
 
 ## Screenshots
 
-![Screenshot](./screenshot_1.png?raw=true)
-![Screenshot](./screenshot_2.png?raw=true)
-![Screenshot](./screenshot_3.png?raw=true)
-![Screenshot](./screenshot_4.png?raw=true)
+<a href="screenshot_1.png?raw=true"><img src="screenshot_1.png?raw=true" width="150" alt="Screenshot"></a>
+<a href="screenshot_2.png?raw=true"><img src="screenshot_2.png?raw=true" width="150" alt="Screenshot"></a>
+<a href="screenshot_3.png?raw=true"><img src="screenshot_3.png?raw=true" width="150" alt="Screenshot"></a>
+<a href="screenshot_4.png?raw=true"><img src="screenshot_4.png?raw=true" width="150" alt="Screenshot"></a>
 
 ## Prerequisites
 
