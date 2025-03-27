@@ -12,6 +12,13 @@ For quite some time, the "shared directories" table with `luci-app-samba4` has b
 - Changes file/directory masks to sensible, secure defaults
 - Adds descriptions for clarity, and changes descriptions where the original was confusing or outright wrong
 
+## Screenshots
+
+![Screenshot](./screenshot_1.png?raw=true)
+![Screenshot](./screenshot_2.png?raw=true)
+![Screenshot](./screenshot_3.png?raw=true)
+![Screenshot](./screenshot_4.png?raw=true)
+
 ## Prerequisites
 
 - `luci-app-samba4` with all its dependencies
