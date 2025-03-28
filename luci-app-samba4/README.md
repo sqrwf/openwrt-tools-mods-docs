@@ -1,4 +1,4 @@
-# luci-app-samba4 Modification
+# luci-app-samba4 Rewrite
 
 ## Rationale
 
@@ -6,7 +6,7 @@ For quite some time, the "shared directories" table with `luci-app-samba4` has b
 
 ## Modifications
 
-- Complete overhaul of the luci-app-samba4 web interface
+- Complete overhaul of the `luci-app-samba4` web interface
 - Shares are organized in an editable and sortable table with a modal dialog for each share
 - Adds options for *read-only* and *read/write* users
 - Changes file/directory masks to sensible, secure defaults
@@ -14,10 +14,10 @@ For quite some time, the "shared directories" table with `luci-app-samba4` has b
 
 ## Screenshots
 
-<a href="screenshot_1.png?raw=true"><img src="screenshot_1.png?raw=true" width="150" alt="Screenshot"></a>
-<a href="screenshot_2.png?raw=true"><img src="screenshot_2.png?raw=true" width="150" alt="Screenshot"></a>
-<a href="screenshot_3.png?raw=true"><img src="screenshot_3.png?raw=true" width="150" alt="Screenshot"></a>
-<a href="screenshot_4.png?raw=true"><img src="screenshot_4.png?raw=true" width="150" alt="Screenshot"></a>
+<a href="screenshot_1.png"><img src="screenshot_1.png?raw=true" width="150" alt="Screenshot"></a>
+<a href="screenshot_2.png"><img src="screenshot_2.png?raw=true" width="150" alt="Screenshot"></a>
+<a href="screenshot_3.png"><img src="screenshot_3.png?raw=true" width="150" alt="Screenshot"></a>
+<a href="screenshot_4.png"><img src="screenshot_4.png?raw=true" width="150" alt="Screenshot"></a>
 
 ## Prerequisites
 
@@ -25,12 +25,13 @@ For quite some time, the "shared directories" table with `luci-app-samba4` has b
 
 ## Usage
 
-- Overwrite original files with the file(s) from this repository
+- Upload the file(s) from this repository. It's probably a good idea to backup any files that will be overwritten.
 
 ## Notes
 
 - Changing labels or descriptions inevitably breaks translations.
 - I disagree with Samba-on-OpenWrt's default file/directory masks of 0666 and 0777 respectively (which, unlike the original source code says, are *not* Samba's defaults). Users should be taught about permission management, not be presented with the loosest possible permission masks in hopes they don't run into problems with their configurations.
+- This rewrite can possibly be applied to `luci-app-ksmbd`.
 
 ## Why Isn’t Any of This Upstream?
 
